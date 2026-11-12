@@ -50,6 +50,8 @@ namespace maddy {
  */
 class Parser
 {
+    friend nvt::expected<std::string>
+    nvt::core::text_to_html(std::istream& is);
 public:
   /**
    * Version info
